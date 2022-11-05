@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.pd-10 {
+    padding: 10px 0px;
+}
+
+.box-shadow-grey {
+    border-radius: 15px;
+    box-shadow: 0 0 25px #ccc;
+}
+
+.td {
+    text-decoration: none;
+    color: red;
+}
