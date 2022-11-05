@@ -1,21 +1,14 @@
 <template>
   <div class="personal box-shadow-grey">
     <el-form label-width="100px">
-      <!--      <el-form-item>-->
-      <!--          <el-upload-->
-      <!--              :on-success="handleAvatarSuccess"-->
-      <!--              :show-file-list="false"-->
-      <!--              action="http://localhost:606/file/upload"-->
-      <!--              classs="avatar-uploader"-->
-      <!--          >-->
-      <!--            <img v-if="form.avatarUrl" :src="form.avatarUrl" class="avatar">-->
-      <!--          </el-upload>-->
-      <!--      </el-form-item>-->
       <el-form-item style="margin-left: 110px">
         <img :src="form.headPortrait" style="width: 80px">
       </el-form-item>
       <el-form-item label="用户名">
         <el-input v-model="form.username" autocomplete="off"></el-input>
+      </el-form-item>
+      <el-form-item label="头像链接">
+        <el-input v-model="form.headPortrait" autocomplete="off"></el-input>
       </el-form-item>
       <el-form-item label="密码">
         <el-input v-model="form.password" autocomplete="off" type="password"></el-input>

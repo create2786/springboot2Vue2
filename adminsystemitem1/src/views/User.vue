@@ -35,6 +35,7 @@
       <el-table-column label="角色" prop="role"></el-table-column>
       <el-table-column label="昵称" prop="nickname"></el-table-column>
       <el-table-column label="邮箱" prop="email"></el-table-column>
+      <el-table-column label="地址" prop="address"></el-table-column>
       <el-table-column align="center" label="操作" width="200">
         <template slot-scope="scope">
           <el-button
