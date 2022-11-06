@@ -44,3 +44,5 @@
 ![菜单管理分配](https://foruda.gitee.com/images/1667703519587132123/70b9636c_10047731.png "屏幕截图")
 ![无token无法访问](https://foruda.gitee.com/images/1667703596213529050/ce4e0999_10047731.png "屏幕截图")
 ![普通用户可看的导航栏](https://foruda.gitee.com/images/1667703763491130464/fcdd8ac5_10047731.png "屏幕截图")
+![前台访问地址](MDimg/image.png)
+
