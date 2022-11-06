@@ -252,12 +252,13 @@ export default {
     saveRoleMenu() {
       request.post("/role/roleMenu/" + this.roleId, this.$refs.tree.getCheckedKeys()).then(res => {
         if (res.code === '200') {
-          this.$message.success("绑定成功")
+          // this.$message.success("绑定成功")
           this.menuDialogVis = false
 
-          // 操作管理员角色后需要重新登录
-          if (this.roleKey === 'ROLE_ADMIN') {
-            this.$store.commit("logout")
+          // 操作管理员角色子菜单后需要重新登录
+          if (this.roleKey === 'LYW_ADMIN') {
+            this.$router.push("/login")
+            this.$message.success("更新完管理员请重新登陆");
           }
 
         } else {
